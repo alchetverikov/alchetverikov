@@ -90,7 +90,7 @@ background-color: #f0f8ff;
     color: #808080;
     text-decoration: underline;
    }
-   #mail {
+   #mailmain, #mailsub {
 	  color: black;
 	  font-family: 'Staatliches', cursive;
 	  font-size: 130%;
@@ -98,7 +98,7 @@ background-color: #f0f8ff;
 	  text-decoration: none;
 	  margin-top: 2%;
   }
-    #mail:hover {
+    #mailsub:hover {
 	  text-decoration: underline;
   }
 
