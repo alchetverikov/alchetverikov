@@ -1,0 +1,134 @@
+html {
+background-color: #f0f8ff;
+}
+
+#navigation {
+	width: 850px;
+	height: 53px;
+	background-color: grey;
+	border: 3px solid black;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#mainblock {
+	width: 920px;
+	height: 480px;
+	background-color: grey;
+	border: 3px solid black;
+	margin: auto;
+	margin-top: 8px;
+	text-align: center;
+}
+ #googlelogo {
+	margin-top: 30px;
+	width: 150px;
+	height: 45px;
+}
+ #mainsubblock {
+	width: 800px;
+	height: 300px;
+	background-color: #181818;
+	border: 3px solid black;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 20px;
+}
+  .descriptions {
+	font-family: 'Staatliches', cursive;
+	width: 90%;
+	height: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3%;
+}
+   #descriptionfirst {
+		font-size: 115%;
+		text-decoration: none;
+		color: #f0f8ff;
+}
+    #descriptionfirst:hover {
+    color: #808080;
+    text-decoration: underline;
+   }
+   #descriptionsecond {
+		font-size: 180%;
+		text-decoration: none;
+		color: #f0f8ff;
+}
+   #gbuttondiv {
+	margin-top: -18.35%;
+	align-items: central;
+}
+   #gbuttonicon {
+	width: 25px;
+	height: 25px;
+}
+    .gbutton {
+  border-color: black;
+  color: black;
+  width: 40px;
+  height: 30px;
+  background-color: #f0f8ff;
+  background-image: -webkit-linear-gradient(45deg, grey 50%, transparent 50%);
+  background-image: linear-gradient(45deg, grey 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+  border-radius: 40%;
+}
+    .gbutton:hover {
+  background-position: 0;
+}
+   #descriptionthird {
+		font-size: 115%;
+		text-decoration: none;
+		color: #f0f8ff;
+}
+    #descriptionthird:hover {
+    color: #808080;
+    text-decoration: underline;
+   }
+   #mail {
+	  color: black;
+	  font-family: 'Staatliches', cursive;
+	  font-size: 130%;
+	  text-align: center;
+	  text-decoration: none;
+	  margin-top: 2%;
+  }
+    #mail:hover {
+	  text-decoration: underline;
+  }
+
+.sideblocks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -490px;
+  padding: 28px;
+}
+ #leftblock {
+	width: 170px;
+	height: 480px;
+	background-color: grey;
+	border: 3px solid black;
+}
+ #rightblock {
+	width: 170px;
+	height: 480px;
+	background-color: grey;
+	border: 3px solid black;
+}
+
+ #copyright, #copyrightdoc {
+	  color: black;
+	  font-family: 'Staatliches', cursive;
+	  text-align: center;
+	  margin-top: -2%;
+	  text-decoration: none;
+  }
+  
+  #copyrightdoc:hover {
+	  color: white;
+  }
