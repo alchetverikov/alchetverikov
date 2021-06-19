@@ -1,5 +1,7 @@
 html {
 background-color: #f0f8ff; /*Цвет заднего фона*/
+background-image: url(../images/background.jpg);
+background-size: 70%;
 }
 
 body {
@@ -14,6 +16,25 @@ body {
 	border: 3px solid black; /*Границы тела*/
 	border-color: black; /*Цвет границ*/ /*тут не играет роли*/
 }
+
+
+.telo {
+	position: absolute;
+	z-index: 1;
+	    min-width: 100%;
+    min-height: 100%;
+}
+
+#backvid {
+	position: absolute;
+	z-index: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
 
 img {
 	margin-top: 2%; /*Отступ изображения от верхней границы тела*/

@@ -1,5 +1,21 @@
 html {
 background-color: #f0f8ff;
+background-image: url(../images/background.jpg);
+background-size: 70%;
+}
+
+#backgroundvideo {
+	position: absolute;
+	z-index: 1;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+header, nav, main, footer {
+	position: relative;
+	z-index: 9999;
 }
 
 #navigation {
